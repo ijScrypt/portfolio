@@ -1,5 +1,5 @@
 // src/components/Projects.tsx
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { projects } from '../data/projects';
 import { FaTimes } from 'react-icons/fa'; // Icône pour fermer
 
