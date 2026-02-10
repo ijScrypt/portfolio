@@ -28,7 +28,7 @@ const Navbar = () => {
           <div className="flex-shrink-0">
             {/* Le texte change de couleur en mode sombre */}
             <span className="text-2xl font-bold text-gray-800 dark:text-white">
-              Mon<span className="text-blue-600">Portfolio</span>.
+              <span className="text-blue-600">Ismail</span>.
             </span>
           </div>
           
@@ -36,7 +36,6 @@ const Navbar = () => {
             <div className="ml-10 flex items-center space-x-4">
               {/* Liens avec gestion du hover en dark mode */}
               <a href="#home" className="hover:text-blue-600 dark:text-gray-300 dark:hover:text-blue-500 px-3 py-2 rounded-md text-sm font-medium text-gray-700 transition">Accueil</a>
-              <a href="#about" className="hover:text-blue-600 dark:text-gray-300 dark:hover:text-blue-500 px-3 py-2 rounded-md text-sm font-medium text-gray-700 transition">À propos</a>
               <a href="#projects" className="hover:text-blue-600 dark:text-gray-300 dark:hover:text-blue-500 px-3 py-2 rounded-md text-sm font-medium text-gray-700 transition">Projets</a>
               <a href="#contact" className="bg-blue-600 text-white px-4 py-2 rounded-md text-sm font-medium hover:bg-blue-700 transition">Contact</a>
 

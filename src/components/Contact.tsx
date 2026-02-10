@@ -15,7 +15,7 @@ const Contact = () => {
 
         <div className="flex flex-col md:flex-row justify-center gap-6">
           <a 
-            href="mailto:votre.email@ecole.fr" 
+            href="mailto:jaghar@et.esiea.fr" 
             className="flex items-center justify-center px-8 py-4 bg-blue-600 text-white rounded-lg font-bold hover:bg-blue-700 transition shadow-lg hover:-translate-y-1"
           >
             <FaEnvelope className="mr-2 text-xl" />
@@ -23,7 +23,7 @@ const Contact = () => {
           </a>
           
           <a 
-            href="https://linkedin.com/in/votre-profil" 
+            href="https://linkedin.com/in/ismail-jaghar" 
             target="_blank" 
             rel="noopener noreferrer"
             className="flex items-center justify-center px-8 py-4 border-2 border-gray-200 dark:border-gray-700 text-gray-700 dark:text-white rounded-lg font-bold hover:border-blue-600 hover:text-blue-600 dark:hover:border-blue-500 dark:hover:text-blue-500 transition"
@@ -33,7 +33,7 @@ const Contact = () => {
           </a>
 
           <a 
-            href="https://github.com/votre-user" 
+            href="https://github.com/ijScrypt" 
             target="_blank" 
             rel="noopener noreferrer"
             className="flex items-center justify-center px-8 py-4 border-2 border-gray-200 dark:border-gray-700 text-gray-700 dark:text-white rounded-lg font-bold hover:border-gray-900 hover:text-gray-900 dark:hover:border-white dark:hover:text-white transition"
