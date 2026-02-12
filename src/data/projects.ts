@@ -11,7 +11,7 @@ export const projects = [
 Sur le plan technique, l’application Flutter consomme une API REST développée avec Django pour gérer les données de trajets et exposer les fonctionnalités côté serveur. L’ensemble est conteneurisé avec Docker pour faciliter le développement, les tests et le déploiement, puis déployé sur Google Cloud Platform (GCP) afin d’assurer l’accessibilité et la scalabilité du service.
 
 Ma contribution (Back-end / API Django) : je travaille sur le développement de l’API REST : définition des modèles et de la structure des données, implémentation des endpoints (création/lecture/mise à jour/suppression), validation des entrées et gestion des règles métier côté serveur, ainsi que l’intégration avec l’application mobile via des réponses JSON cohérentes.`,
-    tags: ["Agile", "Python", "Django", "PostgreSQL", "PostGIS", "Dart", "Flutter", "API REST", "GCP","Git"],
+    tags: ["Agile", "Python", "Django", "Docker", "PostgreSQL", "PostGIS", "Dart", "Flutter", "API REST", "GCP","Git"],
     image: "https://plus.unsplash.com/premium_vector-1731053808402-d7edd7bf759d?q=80&w=735&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     links: [
       { icon: FaGithub, href: "https://github.com", label: "Code" },
