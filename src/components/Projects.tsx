@@ -42,7 +42,7 @@ const Projects = () => {
                 <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-2">
                   {project.title}
                 </h3>
-                <p className="text-gray-600 dark:text-gray-400 text-sm mb-4 line-clamp-3">
+                <p className="text-gray-600 dark:text-gray-400 text-sm mb-4">
                   {project.description}
                 </p>
                 <div className="flex flex-wrap gap-2">
@@ -92,7 +92,7 @@ const Projects = () => {
               </h3>
               
               
-              <p className="text-gray-600 dark:text-gray-300 text-lg leading-relaxed mb-8">
+              <p className="text-gray-600 dark:text-gray-300 text-lg leading-relaxed mb-8 whitespace-pre-line">
                 {selectedProject.details || selectedProject.description}
               </p>
 
@@ -105,28 +105,6 @@ const Projects = () => {
                 ))}
               </div>
 
-              
-              <div className="flex gap-4 pt-6 border-t border-gray-100 dark:border-gray-800">
-                {selectedProject.links.map((link, i) => (
-                  <a 
-                    key={i} 
-                    href={link.href}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    onClick={(e) => e.stopPropagation()} // Empêche de fermer la modale quand on clique sur le lien
-                    className={`
-                      flex items-center px-6 py-3 rounded-lg text-sm font-bold transition-all hover:-translate-y-1
-                      ${link.label.includes("Code") 
-                        ? "bg-gray-900 text-white hover:bg-gray-700 dark:bg-white dark:text-gray-900" 
-                        : "bg-blue-600 text-white hover:bg-blue-700"
-                      }
-                    `}
-                  >
-                    <link.icon className="mr-2 text-lg" />
-                    {link.label}
-                  </a>
-                ))}
-              </div>
             </div>
           </div>
         </div>
